@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background: #f0f2f5;
+    color: #333;
+    margin: 30px;
+}
+
+h1 {
+    color: #28558a;
+}
+
+a {
+    color: #2878c8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+header,
+li {
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+li {
+    margin: 8px 0;
+}
+
+input,
+button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #2878c8;
+    color: white;
+    cursor: pointer;
+}
