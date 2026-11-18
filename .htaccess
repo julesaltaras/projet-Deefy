@@ -9,5 +9,3 @@ RewriteRule ^src(/.*|)$ - [NC,F]
 RewriteRule ^config(/.*|)$ - [NC,F]
 RewriteRule \.ini$ - [NC,F]
 
-# Rediriger l'accueil vers public/index.php
-RewriteRule ^$ public/index.php [L]
